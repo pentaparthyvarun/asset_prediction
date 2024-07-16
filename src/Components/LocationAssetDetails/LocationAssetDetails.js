@@ -18,7 +18,7 @@ function LocationAssetDetails() {
   const currentMonths = months.slice(currentPage * monthsPerPage, (currentPage + 1) * monthsPerPage);
 
   const laptopDetails = () => {
-    navigate(`predictedData/laptopdetails`);
+    navigate(`laptopdetails`);
   };
 
   const goToGraphPage = () => {
