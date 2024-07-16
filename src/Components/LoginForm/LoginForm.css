@@ -1,0 +1,116 @@
+.sub{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-image: url('../../Assets/Background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.main  {
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+font-size:46px ;
+width: 100%;
+height: 25vh;
+}
+.header img{
+    padding-left: 30px;
+    width: 450px;
+}
+.login{
+    display: flex;
+    flex: 1;
+    width: inherit;
+    justify-content: center;
+    margin-top: 20px;
+}
+.login p{
+    width: 100%;
+    height: 2vh;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 35px;
+}
+#label{
+    font-size: 15px;
+    color: whitesmoke;
+}
+.input-box{
+    width: 100%;
+    height: 60px;
+    margin: 25px 0;
+    margin-bottom: 10px;
+    /* border: 1px solid white; */
+}
+.input-box input{
+    width: 90%;
+    height: 50%;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: black ;
+    margin:5px 0 0 0;
+    font-size:15px;
+    padding-left:20px;
+    padding-right: 0;
+}
+.login-link{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid white; */
+}
+.login-link a{
+    margin: 0px 15px 0 15px;
+    color: whitesmoke;
+    font-size: 12px;
+    text-decoration: none;
+    padding-right: 15px;
+}
+.login-link a:hover{
+    text-decoration: underline;
+}
+.button{
+    color: whitesmoke;
+    background-color:#123361;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    width: 95%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.button:active{
+    background-color: rgb(18, 31, 168);
+    transform: translateY(4px);
+}
+.button:hover{
+    background-color: rgb(18, 31, 168);
+}
+.footer{
+    flex: 1;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    /* position: fixed; */
+    font-size: 15px;
+    right: 0;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 0; 
+    background-color: transparent;
+} 
